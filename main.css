@@ -1,0 +1,81 @@
+.hidden {
+  display: none;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: rgb(37, 37, 37);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#login {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  height: 30px;
+  justify-content: space-between;
+}
+#login input {
+  margin: 0 2px;
+}
+#clock {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  margin: 0;
+}
+#greeting {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  margin: 0;
+}
+#currentInfo {
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  font-weight: 400;
+}
+#currentInfo div {
+  padding: 10px;
+}
+.todo {
+  position: absolute;
+  top: 20px;
+  height: 30px;
+}
+#todoForm {
+  display: flex;
+  height: 30px;
+}
+
+button {
+  /* width: 80px; */
+  border: transparent;
+  border-radius: 15px;
+  background-color: rgb(243, 224, 190);
+  color: white;
+  margin-left: 5px;
+  width: 80px;
+  height: 25px;
+}
+input {
+  border: transparent;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+.todoElement {
+  margin: 5px 0;
+  height: 30px;
+}
+
+div {
+  font-size: 110%;
+  font-weight: 600;
+}

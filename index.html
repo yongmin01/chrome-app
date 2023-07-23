@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <script defer src="main.js"></script>
+    <script defer src="login.js"></script>
+    <script defer src="todo.js"></script>
+
+    <h2 id="clock"></h2>
+
+    <form id="login">
+      <input class="userID" type="text" placeholder="Write your name!" />
+      <input class="userPW" type="password" placeholder="Write your password" />
+      <button class="loginBtn" type="submit">Login</button>
+    </form>
+    <h1 id="greeting"></h1>
+
+    <div id="currentInfo">
+      <div class="weather"></div>
+      <div class="location"></div>
+    </div>
+
+    <div class="todo">
+      <form id="todoForm">
+        <input class="todoInput" type="text" placeholder="Write your todo" />
+        <button class="todoBtn" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
