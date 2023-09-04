@@ -12,16 +12,19 @@ drawClock();
 setInterval(drawClock, 1000);
 
 // RANDOM BACKGROUND IMAGE
-const bgArr = [
-  "background1",
-  "background2",
-  "background3",
-  "background4",
-  "background5",
-];
+// const bgArr = [
+//   "background1",
+//   "background2",
+//   "background3",
+//   "background4",
+//   "background5",
+// ];
+const bgArr = ["#b92b27", "#1565C0", "#373B44", "#4286f4"];
 const bodyBg = document.querySelector("body");
-const bgImg = bgArr[Math.floor(Math.random() * bgArr.length)];
-bodyBg.style.backgroundImage = `url(image/${bgImg}.jpg)`;
+const bgColor1 = bgArr[Math.floor(Math.random() * bgArr.length)];
+const bgColor2 = bgArr[Math.floor(Math.random() * bgArr.length)];
+// bodyBg.style.backgroundImage = `url(image/${bgImg}.jpg)`;
+bodyBg.style.backgroundImage = `linear-gradient(0.25turn, ${bgColor1}, ${bgColor2})`;
 
 // WEATHER & LOCATION
 const weather = document.querySelector(".weather");
